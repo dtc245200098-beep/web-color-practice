@@ -1,0 +1,46 @@
+/* Bước 6: Giữ nguyên màu chữ cho toàn bộ trang là màu đen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000; /* Màu chữ đen */
+    /* Bước 2: Thay đổi màu nền trang thành màu bậc 4 (#00BFF2) */
+    background-color: #00BFF2; 
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #00ADEE; /* Màu bậc 1 (Màu chủ đạo) */
+    color: #FFFFFF; /* Chữ trắng cho nổi bật ở header */
+}
+
+/* Bước 3: Thay đổi màu nền phần ON SALE/PREVIEW thành màu bậc 1 (#00ADEE) hoặc bậc 2 (#00B2EF) */
+.sale-banner {
+    background-color: #00B2EF; /* Màu bậc 2 */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* Bước 4: Đổi màu nền phần nội dung thành màu bậc 7 (#8DD7F7) */
+.content {
+    background-color: #8DD7F7; /* Màu bậc 7 */
+    color: #000000; /* Màu chữ đen */
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Bước 5: Đổi màu nền phần footer thành màu bậc 9 (#C6E9FA) */
+.footer {
+    background-color: #C6E9FA; /* Màu bậc 9 */
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
